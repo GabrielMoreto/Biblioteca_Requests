@@ -2,7 +2,7 @@
 
 Requisições são mensagens enviadas pelo cliente para iniciar uma ação no servidor, ou seja temos a relação de cliente-servidor.
 
-```Segue abaixo alguns dos metódos de requisição:
+Segue abaixo alguns dos metódos de requisição:
 
 > GET
 
