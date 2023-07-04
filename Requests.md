@@ -49,7 +49,7 @@ Serve para criar informações.
 Para utilizar o metódo POST em python siga o exemplo do código abaixo:
 
 ```
-informacoes = '{"Nome": "Mateus"}'
+informacoes = '{"Nome": "Gabriel", "Sobrenome" : "Moreto", "Idade": "22"}'
 requisicao = requests.post("https://teste-d52c9-default-rtdb.firebaseio.com/.json", data=informacoes)
 print(requisicao) # se você não fornecer nenhum valor irá gerar o erro 400
 print(requisicao.json())
