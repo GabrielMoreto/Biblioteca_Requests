@@ -17,11 +17,12 @@ Antes de qualquer coisa você deve importar a biblioteca requests utilizando o c
 import requests
 ```
 
-Observação
+`Observação`
 
 Nestes exemplos eu utilizei o Firebase, que é um banco de dados do google, e o firebase exige que você utilize um ",json" ao final dos links.
 
 > função get()
+
 Serve para pegar informações.
 Para utilizar o metódo GET em python siga o exemplo do código abaixo:
 
@@ -41,6 +42,7 @@ O código de resposta "200" significa que está ok, que deu certo, porém ainda 
 saída para o comando "print(requisicao.json())" é igual a "None".
 
 > função post()
+
 Serve para criar informações.
 Para utilizar o metódo POST em python siga o exemplo do código abaixo:
 
@@ -60,6 +62,7 @@ O resultado será:
 Novamente o código "200" significa que está ok, ao acessar o banco de dados eu posso ver que novas informações foram criadas.
 
 > função patch()
+
 Serve para editar informações.
 Para utilizar o metódo PATCH em python siga o exemplo do código abaixo:
 
@@ -78,6 +81,7 @@ O resultado será:
 Ao acessar o banco de dados posso observar que o sobrenome foi alterado.
 
 > função delete()
+
 Serve para apagar informações.
 Para utilizar o metódo DELETE em python siga o exemplo do código abaixo:
 
@@ -99,4 +103,12 @@ Ao acessar o banco de dados posso ver que não existe mais nenhuma informação.
 
 # Códigos de resposta
 
-Como response as requisições posso ter códigos como o 200 que significa que está tudo ok, e 400 que significa que houve algum erro.
+Como resposta as requisições posso ter os seguintes códigos:
+
+`200` 
+
+Que significa que está tudo ok.
+
+`400` 
+
+Que significa que houve algum erro.
