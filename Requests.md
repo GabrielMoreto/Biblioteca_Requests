@@ -21,6 +21,8 @@ import requests
 
 Nestes exemplos eu utilizei o Firebase, que é um banco de dados do google, e o firebase exige que você utilize um ",json" ao final dos links.
 
+# Funções da biblioteca requests
+
 > função get()
 
 Serve para pegar informações.
